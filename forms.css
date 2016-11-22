@@ -1,0 +1,15 @@
+.control {
+	border-right: 1px gray solid;
+	border-bottom: 1px gray solid;
+	box-shadow: 2px 2px 1px gray;
+	padding: 0 0 10px 0; 
+	margin: 10px;
+	width: 400px;
+}
+.control p {
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+.control p::after {
+	content: ":";
+}
